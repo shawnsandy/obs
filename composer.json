@@ -10,6 +10,7 @@
         "laravel-frontend-presets/bulma": "^1.6",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
+        "laravelcollective/html": "^5.4.0",
         "shawnsandy/backstory": "dev-master",
         "shawnsandy/dash-auth": "dev-master",
         "shawnsandy/img-fly": "dev-master",
