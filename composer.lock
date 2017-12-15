@@ -2667,12 +2667,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/backstory.git",
-                "reference": "af70ca7ea94b16352ff9d22f1f03a18e2c0c2d06"
+                "reference": "9931d962dcbd1364291facb62ba7ed06d248e83a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/backstory/zipball/af70ca7ea94b16352ff9d22f1f03a18e2c0c2d06",
-                "reference": "af70ca7ea94b16352ff9d22f1f03a18e2c0c2d06",
+                "url": "https://api.github.com/repos/shawnsandy/backstory/zipball/9931d962dcbd1364291facb62ba7ed06d248e83a",
+                "reference": "9931d962dcbd1364291facb62ba7ed06d248e83a",
                 "shasum": ""
             },
             "require": {
@@ -2700,7 +2700,7 @@
                         "ShawnSandy\\Backstory\\BackstoryServicesProvider"
                     ],
                     "aliases": {
-                        "Backstory": "ShawnSandy\\Backstory\\:BackstoryFacade"
+                        "Backstory": "ShawnSandy\\Backstory\\BackstoryFacade"
                     }
                 }
             },
@@ -2749,7 +2749,7 @@
                 "source": "https://github.com/shawnsandy/backstory/tree/master",
                 "issues": "https://github.com/shawnsandy/backstory/issues"
             },
-            "time": "2017-12-15T13:18:33+00:00"
+            "time": "2017-12-15T22:15:51+00:00"
         },
         {
             "name": "shawnsandy/dash-auth",
@@ -2757,12 +2757,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash-auth.git",
-                "reference": "5dfd7a1b5110c68962cdee2219eaaa4c26a0dc3c"
+                "reference": "f8d80d7cf4c25f5c8cd2a6b43ef69400aeffbbb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash-auth/zipball/5dfd7a1b5110c68962cdee2219eaaa4c26a0dc3c",
-                "reference": "5dfd7a1b5110c68962cdee2219eaaa4c26a0dc3c",
+                "url": "https://api.github.com/repos/shawnsandy/dash-auth/zipball/f8d80d7cf4c25f5c8cd2a6b43ef69400aeffbbb2",
+                "reference": "f8d80d7cf4c25f5c8cd2a6b43ef69400aeffbbb2",
                 "shasum": ""
             },
             "require": {
@@ -2786,7 +2786,7 @@
                         "ShawnSandy\\DashAuth\\DashAuthServicesProvider"
                     ],
                     "aliases": {
-                        "Dashauth": "ShawnSandy\\DashAuth\\DashAuth"
+                        "Dashauth": "ShawnSandy\\DashAuth\\DashAuthFacade"
                     }
                 }
             },
@@ -2832,7 +2832,7 @@
                 "source": "https://github.com/shawnsandy/dash-auth/tree/master",
                 "issues": "https://github.com/shawnsandy/dash-auth/issues"
             },
-            "time": "2017-12-10T15:04:10+00:00"
+            "time": "2017-12-15T20:38:37+00:00"
         },
         {
             "name": "shawnsandy/img-fly",
