@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view(jarvis_views("index"), ["theme_class" => "front-page"]);
 });
 
 Auth::routes();
