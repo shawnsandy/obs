@@ -2667,12 +2667,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/backstory.git",
-                "reference": "9931d962dcbd1364291facb62ba7ed06d248e83a"
+                "reference": "dab6f2bed77d1061f929f077a1f28b0a38d12089"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/backstory/zipball/9931d962dcbd1364291facb62ba7ed06d248e83a",
-                "reference": "9931d962dcbd1364291facb62ba7ed06d248e83a",
+                "url": "https://api.github.com/repos/shawnsandy/backstory/zipball/dab6f2bed77d1061f929f077a1f28b0a38d12089",
+                "reference": "dab6f2bed77d1061f929f077a1f28b0a38d12089",
                 "shasum": ""
             },
             "require": {
@@ -2749,7 +2749,7 @@
                 "source": "https://github.com/shawnsandy/backstory/tree/master",
                 "issues": "https://github.com/shawnsandy/backstory/issues"
             },
-            "time": "2017-12-15T22:15:51+00:00"
+            "time": "2017-12-15T23:00:42+00:00"
         },
         {
             "name": "shawnsandy/dash-auth",

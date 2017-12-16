@@ -32,4 +32,6 @@ Dashauth::routes();
 
 Backstory::routes();
 
+Imgfly::routes();
+
 Route::get('/home', 'HomeController@index')->name('home');
