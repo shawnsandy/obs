@@ -8,12 +8,12 @@
         "php": ">=7.0.0",
         "barryvdh/laravel-debugbar": "^3.1",
         "fideloper/proxy": "~3.3",
+        "geoip2/geoip2": "~2.0",
         "laravel-frontend-presets/bulma": "^1.6",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4.0",
         "pragmarx/firewall": "^2.1",
-        "pragmarx/tracker": "^3.2",
         "shawnsandy/backstory": "dev-master",
         "shawnsandy/dash-auth": "dev-master",
         "shawnsandy/img-fly": "dev-master",
@@ -23,6 +23,7 @@
     "require-dev": {
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
+        "itsgoingd/clockwork": "^2.0",
         "mockery/mockery": "~1.0",
         "phpunit/phpunit": "~6.0"
     },
