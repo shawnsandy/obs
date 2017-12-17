@@ -2615,12 +2615,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/dash-auth.git",
-                "reference": "f8d80d7cf4c25f5c8cd2a6b43ef69400aeffbbb2"
+                "reference": "c4b381bfd113240eac6cf344787f7a3e58ddce29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/dash-auth/zipball/f8d80d7cf4c25f5c8cd2a6b43ef69400aeffbbb2",
-                "reference": "f8d80d7cf4c25f5c8cd2a6b43ef69400aeffbbb2",
+                "url": "https://api.github.com/repos/shawnsandy/dash-auth/zipball/c4b381bfd113240eac6cf344787f7a3e58ddce29",
+                "reference": "c4b381bfd113240eac6cf344787f7a3e58ddce29",
                 "shasum": ""
             },
             "require": {
@@ -2690,7 +2690,7 @@
                 "source": "https://github.com/shawnsandy/dash-auth/tree/master",
                 "issues": "https://github.com/shawnsandy/dash-auth/issues"
             },
-            "time": "2017-12-15T20:38:37+00:00"
+            "time": "2017-12-17T23:16:41+00:00"
         },
         {
             "name": "shawnsandy/img-fly",
@@ -2746,12 +2746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/jarvis.git",
-                "reference": "1407a6318941bac973a28fc0286ea6d6b574c0a5"
+                "reference": "f053075f84815b49123baef9d964f10468d4a820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/jarvis/zipball/1407a6318941bac973a28fc0286ea6d6b574c0a5",
-                "reference": "1407a6318941bac973a28fc0286ea6d6b574c0a5",
+                "url": "https://api.github.com/repos/shawnsandy/jarvis/zipball/f053075f84815b49123baef9d964f10468d4a820",
+                "reference": "f053075f84815b49123baef9d964f10468d4a820",
                 "shasum": ""
             },
             "require": {
@@ -2822,7 +2822,7 @@
                 "source": "https://github.com/shawnsandy/jarvis/tree/master",
                 "issues": "https://github.com/shawnsandy/jarvis/issues"
             },
-            "time": "2017-12-17T17:04:48+00:00"
+            "time": "2017-12-17T23:06:54+00:00"
         },
         {
             "name": "silber/bouncer",
