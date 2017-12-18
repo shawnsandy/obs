@@ -2746,12 +2746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/jarvis.git",
-                "reference": "f053075f84815b49123baef9d964f10468d4a820"
+                "reference": "113e083855278330fc12bc7ffb0908edeb83e6d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/jarvis/zipball/f053075f84815b49123baef9d964f10468d4a820",
-                "reference": "f053075f84815b49123baef9d964f10468d4a820",
+                "url": "https://api.github.com/repos/shawnsandy/jarvis/zipball/113e083855278330fc12bc7ffb0908edeb83e6d6",
+                "reference": "113e083855278330fc12bc7ffb0908edeb83e6d6",
                 "shasum": ""
             },
             "require": {
@@ -2822,7 +2822,7 @@
                 "source": "https://github.com/shawnsandy/jarvis/tree/master",
                 "issues": "https://github.com/shawnsandy/jarvis/issues"
             },
-            "time": "2017-12-17T23:06:54+00:00"
+            "time": "2017-12-18T16:11:33+00:00"
         },
         {
             "name": "silber/bouncer",
