@@ -26,7 +26,15 @@ Route::group(['prefix' => config("jarvis.base_url", 'jarvis')], function () {
     Jarvis::routes();
 });
 
-Auth::routes();
+Route::get('/login', function(){
+    return view(jarvis_views("login"));
+});
+
+Route::get('/register', function(){
+    return view(jarvis_views('register'));
+});
+
+//Auth::routes();
 
 Dashauth::routes();
 
