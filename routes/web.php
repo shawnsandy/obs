@@ -15,14 +15,13 @@ Route::get('/', function () {
     return view(jarvis_views("index"), ["theme_class" => "front-page"]);
 });
 
-Route::get('/login', function(){
+Route::get('/signin', function(){
     return view(jarvis_views("login"));
 });
 
-Route::get('/register', function(){
+Route::get('/signup', function(){
     return view(jarvis_views('register'));
 });
-
 
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -33,9 +32,7 @@ Route::group(['prefix' => config("jarvis.base_url", 'jarvis')], function () {
     Jarvis::routes();
 });
 
-//Auth::routes();
-
-
+Auth::routes();
 
 Backstory::routes();
 
