@@ -7,7 +7,7 @@ return [
      *
      */
 
-    'enabled' => env('FIREWALL_ENABLED', true),
+    'enabled' => env('FIREWALL_ENABLED', TRUE),
 
     /*
      * Whitelisted and blacklisted IP addresses, ranges, countries, files and/or files of files
