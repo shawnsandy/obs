@@ -23,6 +23,10 @@ Route::get('/signup', function(){
     return view(jarvis_views('register'));
 });
 
+Route::get('/reset-password', function(){
+    return view(jarvis_views('reset'));
+});
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => config("jarvis.base_url", 'jarvis')], function () {
