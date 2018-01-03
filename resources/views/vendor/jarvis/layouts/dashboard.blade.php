@@ -11,14 +11,16 @@
     <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.2.0/css/iconmonstr-iconic-font.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
     @include(Jarvis::views('partials.admin-header'))
+    <link rel="stylesheet" href="/css/blacktie/app.min.css">
 
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- Generate using http://realfavicongenerator.net/ -->
 
     <link rel="stylesheet" href="/jarvis/css/admin-070a62256f.css">
+    @stack('styles')
+     <link rel="stylesheet" href="/assets/backstory/backstory.css">
 </head>
 
 <body class="admin">
@@ -47,7 +49,7 @@
                                     </li>
 
                                     <li>
-                                        <a href="/jarvis/dashboard"><i class="im im-note-o"></i><span class="sidebar-text">Posts</span></a>
+                                        <a href="{{ url("/admin/content") }}"><i class="im im-note-o"></i><span class="sidebar-text">Content</span></a>
                                     </li>
 
                                     <li>
@@ -120,12 +122,12 @@
         </div>
 
     </section>
+<script src="https://unpkg.com/umbrellajs@2.10.1/umbrella.min.js"></script>
 
 @include(Jarvis::views('partials.admin-footer'))
-
-
-
-
+@stack('scripts')
+@stack('inline-scripts')
+<script src="/assets/backstory/app.js"></script>
 </body>
 
 </html>

@@ -20,7 +20,8 @@
 
     @yield('content')
 
-    @include(Jarvis::views("partials.footer")) @stack('scripts')
+    @include(Jarvis::views("partials.footer"))
+    @stack('scripts')
 
 </body>
 
