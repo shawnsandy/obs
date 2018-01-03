@@ -1,6 +1,9 @@
 @extends(Jarvis::views('layouts.dashboard'))
 @section('content')
 <div class="widgets">
+
+		@include(jarvis_views("partials.messages"))
+
 	<div class="columns">
 		<div class="column">
 			<div class="cards">

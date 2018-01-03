@@ -1,6 +1,9 @@
 @extends(Jarvis::views('layouts.dashboard'))
 @section('content')
 <div class="widgets">
+	<div class="container">
+		@include(jarvis_views("partials.messages"))
+	</div>
 	<div class="columns">
 		<div class="column">
 			<div class="cards">
@@ -72,7 +75,7 @@
 				<div class="card-content">
 					<div class="header">
 						<div class="subtitle is-3">
-							<i class="im im-bar-chart"></i> Analytics</div>
+							<i class="im im-bar-chart"></i> Edit Content</div>
 					</div>
 					@include("backstory::forms.update")
 				</div>

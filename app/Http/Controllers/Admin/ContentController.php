@@ -27,7 +27,7 @@ class ContentController extends StoryController
 
 		$model = Story::with(['author', 'categories'])->where("id", $id)->first();
 
-		return view('admin.edit-content', compact('model')) ;
+		return view('admin.edit-content', compact('model'));
 
 	}
 
