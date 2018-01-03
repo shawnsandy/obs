@@ -7,27 +7,38 @@ use ShawnSandy\Backstory\App\Story;
 
 class ContentController extends StoryController
 {
+	protected $recent;
+
+	public function __construct(){
+
+		$this->recent = Story::latest()->take(10)->get();
+
+	}
 
 	public function index()
 	{
 
 		$content = Story::type('post')->get();
+		$recent = $this->recent;
 
-		return view("admin.content", compact('content'));
+		return view("admin.content", compact('content', 'recent'));
 
 	}
 
 	public function create()
 	{
-		return view("admin.create-content");
+		$recent = $this->recent;
+		return view("admin.create-content", compact('recent'));
 	}
 
 	public function edit($id)
 	{
 
+		$recent = $this->recent;
+
 		$model = Story::with(['author', 'categories'])->where("id", $id)->first();
 
-		return view('admin.edit-content', compact('model'));
+		return view('admin.edit-content', compact('model', 'recent'));
 
 	}
 

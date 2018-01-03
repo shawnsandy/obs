@@ -1,5 +1,5 @@
 <div class="section">
-<div class="container">
+<div class="container is-fluid">
 
     @if (count($errors) > 0)
     <div class="notification is-danger has-text-centered">
