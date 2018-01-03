@@ -99,19 +99,6 @@
                     </nav>
 
                     <div class="dashboard">
-                        <div class="container-fluid">
-                            <div class="section columns">
-                                {{--  <div class="column">
-                                    <nav class="breadcrumb has-dot-separator" aria-label="breadcrumbs">
-                                        <ul>
-                                            <li><a href="#">Dashboard</a></li>
-                                            <li class="is-active"><a href="#" aria-current="page">Page</a></li>
-                                        </ul>
-                                    </nav>
-
-                                </div>  --}}
-                            </div>
-                        </div>
 
                         @yield('content')
 
@@ -127,7 +114,6 @@
 @include(Jarvis::views('partials.admin-footer'))
 @stack('scripts')
 @stack('inline-scripts')
-<script src="/assets/backstory/app.js"></script>
 </body>
 
 </html>

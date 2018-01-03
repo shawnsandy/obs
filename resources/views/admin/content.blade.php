@@ -1,26 +1,7 @@
 @extends(Jarvis::views('layouts.dashboard'))
 @section('content')
+<div class="section"></div>
 <div class="widgets">
-
-	<div class="columns">
-
-		<div class="column">
-			<div class="cards">
-
-				<div class="card-content">
-
-					<header class="header">
-						<div class="subtitle is-5 is-uppercase">
-							<i class="im im-note-o"></i> Posts</div>
-					</header>
-					<p>Lorem ipsum dolor sit amet.</p>
-
-				</div>
-
-			</div>
-		</div>
-
-	</div>
 
 </div>
 
@@ -40,6 +21,7 @@
 						</div>
 						<p>
 							<a href="/admin/content/create" class="button is-success">Add Content</a>
+							 {{--  @include('backstory::components.modals-categories')  --}}
 						</p>
 					</div>
 
@@ -81,11 +63,23 @@
 					<div class="header">
 						<div class="subtitle is-5 is-uppercase">
 							<i class="im im-info"></i>
-							Dashboard Sidebar
+							Categories
 						</div>
 					</div>
+					<hr>
+					@include('backstory::forms.categories')
+
+					<hr>
+
 				</div>
 			</div>
+			<hr>
+			@component('backstory::components.categories')
+			<p class="is-size-7 is-uppercase">
+				Story Categories
+
+			</p>
+			@endcomponent
 
 		</div>
 

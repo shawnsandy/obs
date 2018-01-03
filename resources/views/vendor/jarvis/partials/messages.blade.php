@@ -1,36 +1,42 @@
-@if (count($errors) > 0)
+<div class="section">
+<div class="container is-fluid">
+
+    @if (count($errors) > 0)
     <div class="notification is-danger has-text-centered">
         <ul>
             @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
+            <li>{{ $error }}</li>
             @endforeach
         </ul>
     </div>
-@endif
+    @endif
 
-@if(session('success'))
+    @if(session('success'))
     <div class="notification is-success">
-    <div class="has-text-centered">{{ session('success') }}</div>
+        <div class="has-text-centered">{{ session('success') }}</div>
     </div>
-@endif
+    @endif
 
-@if(session('info'))
+    @if(session('info'))
     <div class="notification is-primary">
-    <div class="has-text-centered">{{ session('info') }}</div>
+        <div class="has-text-centered">{{ session('info') }}</div>
 
     </div>
-@endif
+    @endif
 
-@if(session('warning'))
+    @if(session('warning'))
     <div class="notification is-warning">
-    <div class="has-text-centered"> {{ session('warning') }}</div>
+        <div class="has-text-centered"> {{ session('warning') }}</div>
 
     </div>
-@endif
+    @endif
 
-@if(session('error'))
+    @if(session('error'))
     <div class="notification is-danger">
-    <div class="has-text-centered">{{ session('error') }}</div>
+        <div class="has-text-centered">{{ session('error') }}</div>
 
     </div>
-@endif
+    @endif
+</div>
+
+</div>
