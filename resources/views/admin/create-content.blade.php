@@ -2,7 +2,7 @@
 @section('content')
 <div class="widgets">
 
-		@include(jarvis_views("partials.messages"))
+@include(jarvis_views("partials.messages"))
 
 	<div class="columns">
 		<div class="column">
