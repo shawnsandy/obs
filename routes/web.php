@@ -36,6 +36,12 @@ Route::group(['prefix' => config("jarvis.base_url", 'jarvis')], function () {
     Jarvis::routes();
 });
 
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function(){
+
+    Route::resource('/content', 'ContentController');
+
+});
+
 Auth::routes();
 
 Backstory::routes();

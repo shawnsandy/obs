@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0a68eb35362463efb5e03f958be1cdb",
+    "content-hash": "ec85839abafeaf1fbcf8abb00c46148e",
     "packages": [
         {
             "name": "appstract/laravel-blade-directives",
@@ -2525,12 +2525,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shawnsandy/backstory.git",
-                "reference": "f0e81735ae4c5f8a1ef1601e26431db8e7eacb40"
+                "reference": "37f4ca5ee2e0574a9e32624b07aa2ae4d6645367"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shawnsandy/backstory/zipball/f0e81735ae4c5f8a1ef1601e26431db8e7eacb40",
-                "reference": "f0e81735ae4c5f8a1ef1601e26431db8e7eacb40",
+                "url": "https://api.github.com/repos/shawnsandy/backstory/zipball/37f4ca5ee2e0574a9e32624b07aa2ae4d6645367",
+                "reference": "37f4ca5ee2e0574a9e32624b07aa2ae4d6645367",
                 "shasum": ""
             },
             "require": {
@@ -2607,7 +2607,7 @@
                 "source": "https://github.com/shawnsandy/backstory/tree/master",
                 "issues": "https://github.com/shawnsandy/backstory/issues"
             },
-            "time": "2017-12-17T22:29:50+00:00"
+            "time": "2018-01-03T15:43:42+00:00"
         },
         {
             "name": "shawnsandy/dash-auth",
